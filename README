@@ -1,7 +1,6 @@
 Purpose
 
-The purpose of the final project is to create a scalable web-based multi-user chat application. The
-project combines Erlang OTP with stripes framework.
+The purpose of the final project is to create a scalable web-based multi-user chat application. The project combines Erlang OTP with stripes framework.
 
 Technology
 
