@@ -1,0 +1,10 @@
+
+CREATE TABLE chatmessage
+(
+  id serial NOT NULL,
+  usernamefrom character varying(10) NOT NULL,
+  usernameto character varying(10),
+  chatmessage character varying(256) NOT NULL,
+  messagetime timestamp with time zone NOT NULL DEFAULT now(),
+  CONSTRAINT pk_chatmessage PRIMARY KEY (id )
+)

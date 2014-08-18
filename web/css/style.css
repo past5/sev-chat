@@ -1,0 +1,142 @@
+html, body {
+  background-color: #FFFFFF;
+}
+body, td, th {
+  color: #000000;
+  font-family: "Luxi Sans", Arial, sans-serif;
+  font-size: 10pt;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding-left:  4px;
+  padding-right: 4px;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+font.notconnected {
+	color: red;
+}
+font.connected {
+	color: green;
+}
+/* START:invalid */
+input.error, input.invalid {
+  border-color: red;
+  background-color: #FFCCCC;
+}
+/* END:invalid */
+/* START:error */
+span.error {
+  color: #b72222;
+}
+span.error p {
+  margin: 0;
+}
+/* END:error */
+img {
+	border: none;
+}
+
+#wrapper {
+	width: 100%;
+	min-width: 800px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	background: #FFFFFF;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	height: 1%;
+	position: relative;
+	
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#containertop {
+	background-image:url(../images/sevchat.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding-top:55px;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-style:solid;
+	border-width:thin;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-style:solid;
+	border-width:thin;
+}
+#containergray {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-style:solid;
+	border-width:thin;
+	background:lightgray;
+}
+#containerbeige {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-style:solid;
+	border-width:thin;
+	background:beige;
+}
+#content {
+	padding: 0 420px 0 0;
+}
+
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	margin-left: 0px;
+	width: 300px;
+	position: relative;
+	background: #FFFFFF;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-left: -300px;
+	width: 300px;
+	position: relative;
+	background: #FFFFFF;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	height: 100px;
+	background: #BFF08E;
+}

@@ -1,0 +1,10 @@
+
+CREATE TABLE chatuser
+(
+  id serial NOT NULL,
+  username character varying(10) NOT NULL,
+  password character varying(28) NOT NULL,
+  firstname character varying(10) NOT NULL,
+  lastname character varying(10) NOT NULL,
+  CONSTRAINT pk_chatuser PRIMARY KEY (id)
+)

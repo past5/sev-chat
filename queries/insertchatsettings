@@ -1,0 +1,2 @@
+
+INSERT INTO chatsettings(password, serverip, servername, servercookie) VALUES ('bHyjRfY/g1yzU/8VvWxeBS7Ajno=', '192.168.0.101', 'chatserver', 'sev11');
